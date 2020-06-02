@@ -1,7 +1,7 @@
 import express from 'express'
 import { Request, Response } from 'express'
 
-import IControllerBase from '../interfaces/IControllerBase.interface'
+import IControllerBase from '../_common/interfaces/IControllerBase.interface'
 
 class TablesController implements IControllerBase {
     public path = '/tables';

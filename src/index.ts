@@ -1,8 +1,8 @@
 import bodyParser from "body-parser";
 
-import App from "./App";
+import App from "./modules/_common/classes/App.class";
 
-import TablesController from './controllers/tables.controller';
+import TablesController from './modules/table/Tables.controller';
 
 const app = new App({
   controllers: [

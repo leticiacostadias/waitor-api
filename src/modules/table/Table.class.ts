@@ -1,4 +1,4 @@
-import TableBaseInterface from '../interfaces/TableBase.interface';
+import TableBaseInterface from './TableBase.interface';
 
 class Table implements TableBaseInterface {
     public id: string;
